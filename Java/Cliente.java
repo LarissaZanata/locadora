@@ -1,6 +1,5 @@
 package Workflow de Projeto.Visão Global;
 
-import Workflow Análise.Visão Global.ControlCliente;
 import Workflow Análise.Classes de Análise.Emprestar Exemplar.Cliente;
 import Workflow Análise.Classes de Análise.Devolver Exemplar.Cliente;
 
@@ -19,26 +18,6 @@ public class Cliente {
 	private boolean statusReserva;
 
 	private boolean statusMulta;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlCliente controlCliente;
-
-	private ControlEmprestimo controlEmprestimo;
-
-	private ControlEmprestimo controlEmprestimo;
 
 	public Cliente checarCliente(Cliente cliente) {
 		return null;

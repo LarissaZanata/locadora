@@ -1,6 +1,5 @@
 package Workflow de Projeto.Visão Global;
 
-import Workflow Análise.Visão Global.ControlEmprestimo;
 import Workflow Análise.Classes de Análise.Reservar Exemplar.Cliente;
 import Workflow de Requisitos.Modelo de objeto de Negócio.Multa;
 import Workflow Análise.Classes de Análise.Devolver Exemplar.Multa;
@@ -12,12 +11,6 @@ public class Multa {
 	private Cliente cliente;
 
 	private Emprestimo emprestimo;
-
-	private ControlEmprestimo controlEmprestimo;
-
-	private ControlEmprestimo controlEmprestimo;
-
-	private ControlEmprestimo controlEmprestimo;
 
 	public boolean gerarMulta(Cliente cliente) {
 		return false;

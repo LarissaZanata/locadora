@@ -1,8 +1,6 @@
 package Workflow de Projeto.Visão Global;
 
 import Workflow Análise.Classes de Análise.Cadastrar Livro.Exemplar;
-import Workflow Análise.Visão Global.ControlLivro;
-import Workflow de Projeto.Classes de Projeto.Excluir Filme.ControlFilme;
 import Workflow Análise.Classes de Análise.Alterar Filme.Filme;
 
 public class Filme {
@@ -16,28 +14,6 @@ public class Filme {
 	private String diretor;
 
 	private Exemplar[] exemplar;
-
-	private ControlLivro controlLivro;
-
-	private ControlFilme controlFilme;
-
-	private ControlFilme controlFilme;
-
-	private Exemplar exemplar;
-
-	private Exemplar exemplar;
-
-	private ControlFilme controlFilme;
-
-	private ControlFilme controlFilme;
-
-	private Exemplar exemplar;
-
-	private Exemplar exemplar;
-
-	private Excluir Filme.ControlFilme controlFilme;
-
-	private Excluir Filme.ControlFilme controlFilme;
 
 	public Filme acessar_dados_filme(Filme filme) {
 		return null;

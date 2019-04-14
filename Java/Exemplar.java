@@ -1,8 +1,5 @@
 package Workflow de Projeto.Visão Global;
 
-import Workflow Análise.Visão Global.ControlLivro;
-import Workflow de Projeto.Classes de Projeto.Excluir Filme.iExcluirFilme;
-import Workflow de Projeto.Classes de Projeto.Excluir Filme.ControlFilme;
 import Workflow Análise.Classes de Análise.Alterar Filme.Filme;
 
 public class Exemplar {
@@ -12,26 +9,6 @@ public class Exemplar {
 	private boolean emprestado;
 
 	private boolean reservado;
-
-	private ControlLivro controlLivro;
-
-	private ControlFilme controlFilme;
-
-	private Filme filme;
-
-	private Filme filme;
-
-	private ControlFilme controlFilme;
-
-	private ControlFilme controlFilme;
-
-	private Filme filme;
-
-	private Filme filme;
-
-	private Excluir Filme.iExcluirFilme iExcluirFilme;
-
-	private Excluir Filme.ControlFilme controlFilme;
 
 	public boolean checarStatus(Filme filme) {
 		return false;

@@ -1,10 +1,9 @@
 package Workflow de Projeto.Visão Global;
 
-import Workflow de Requisitos.Modelo de objeto de Negócio.Livro;
 import Workflow Análise.Classes de Análise.Pagar Multa.Cliente;
 import Workflow Análise.Classes de Análise.Pagar Multa.Emprestimo;
 import Workflow Análise.Classes de Análise.Devolver Exemplar.Emprestimo;
-import Workflow Análise.Classes de Análise.Devolver Exemplar.Cliente;
+import Workflow de Requisitos.Modelo de casos de uso.Diagrama de movimentação.Cliente;
 
 public class Emprestimo {
 
@@ -12,21 +11,15 @@ public class Emprestimo {
 
 	private int dataDevolucao;
 
-	private Livro livro;
+	private Filme filme;
 
 	private Cliente cliente;
-
-	private ControlEmprestimo controlEmprestimo;
-
-	private ControlEmprestimo controlEmprestimo;
-
-	private ControlEmprestimo controlEmprestimo;
 
 	public Emprestimo checarEmprestimo(Emprestimo emprestimo) {
 		return null;
 	}
 
-	public boolean criarEmprestimo(Cliente cliente, int livro) {
+	public boolean criarEmprestimo(Cliente cliente, int filme) {
 		return false;
 	}
 
@@ -46,11 +39,11 @@ public class Emprestimo {
 		return 0;
 	}
 
-	public void setLivro(Livro livro) {
+	public void setFilme(Filme filme) {
 
 	}
 
-	public Livro getLivro() {
+	public Filme getFilme() {
 		return null;
 	}
 

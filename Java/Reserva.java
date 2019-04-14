@@ -1,37 +1,30 @@
 package Workflow de Projeto.Visão Global;
 
-import Workflow de Requisitos.Modelo de objeto de Negócio.Livro;
 import Workflow Análise.Classes de Análise.Pagar Multa.Cliente;
 import Workflow Análise.Classes de Análise.Reservar Exemplar.Reserva;
 import Workflow de Requisitos.Modelo de casos de uso.Diagrama de movimentação.Cliente;
 
 public class Reserva {
 
-	private Livro livro;
+	private Filme filme;
 
 	private Cliente cliente;
 
 	private int codigoReserva;
 
-	private ControlReserva controlReserva;
-
-	private ControlReserva controlReserva;
-
-	private ControlReserva controlReserva;
-
 	public boolean validarReserva(Reserva reserva) {
 		return false;
 	}
 
-	public boolean confirmarReserva(Cliente cliente, Filme livro) {
+	public boolean confirmarReserva(Cliente cliente, Filme filme) {
 		return false;
 	}
 
-	public void setLivro(Livro livro) {
+	public void setFilme(Filme filme) {
 
 	}
 
-	public Livro getLivro() {
+	public Filme getFilme() {
 		return null;
 	}
 
